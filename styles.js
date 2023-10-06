@@ -22,6 +22,10 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     width: '90%',
   },
+  progressBar: {
+    height: '100%',
+    width: '1%',
+  },
   soundButton: {
     width: '90%',
     height: '10%',
@@ -29,6 +33,10 @@ const styles = StyleSheet.create({
     marginVertical: 5,
     justifyContent: "center",
     alignItems: "center",
+    overflow: 'hidden',
+  },
+  textContainer: {
+    position: 'absolute',
   }
 });
 
